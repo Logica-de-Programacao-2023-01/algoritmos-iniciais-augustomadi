@@ -1,0 +1,13 @@
+esse algoritmo irá fazer a media de uma lista de numeros:
+exemplo:
+ 
+def soma_da_lista(sua_lista):
+    soma_de_sua_lista = 0
+    for number in sua_lista:
+        soma_de_sua_lista += number
+    return soma_de_sua_lista
+    print(soma_de_sua_lista)
+
+exemplo:
+print(soma_da_lista([2,3,5,1,2,4,5,1,3])) #irá aparecer 26 no console
+print(soma_da_lista([10,23,51,32,51])) # irá aparecer 167 no console
