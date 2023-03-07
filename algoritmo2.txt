@@ -1,0 +1,9 @@
+Esse algoritmo ira converter a temperatura de graus celsius para fahrenheit
+1 - identificar se a temperatura está em graus celsius ou em fahrenheit
+se a temperatura estiver em graus celsius: 
+2 - usar a seguinte formula com a temperatura temperatura em 
+celcius/5 = (temperatura em fahrenheit – 32)/9
+se a temperatura estiver em fahrenheit:
+3 - usar a seguinte formula para converter para graus celsius 
+temperatura em celcius/5 = (temperatura em fahrenhit – 32)/9
+4 - escreva o resultado final
