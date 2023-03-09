@@ -1,0 +1,20 @@
+1 - Ira pedir uma lista
+2 - Ira ver oque voce deseja procurar
+3 - Conferir item por item da lista
+Se o elemento esteja na lista:
+4 - Escreva que o elemento se encontra na lista
+Se o elemento não estiver na lista:
+5 - Escreva que o elemento se encontra na lista
+
+Caso fosse feito um programa com essas instruções:
+def procurar_elemento(lista, elemento_desejado):
+    if elemento_desejado in lista:
+        print("O elementodesejado se encontra na lista")
+    else:
+        print("O elemento desejado não está na lista")
+
+Exemplo:
+print(procurar_elemento([1,4,5,2], 4)) 
+print(procurar_elemento(["banana", "pera", "maça"], "maça"))
+O primeiro argumento da função e a lista a qual se deseja procurar o elemento
+O segundo argumento da função e o elemento desejado
