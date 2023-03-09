@@ -1,6 +1,11 @@
-esse algoritmo irá fazer a media de uma lista de numeros:
-exemplo:
- 
+esse algoritmo irá:
+1 - Solicitar uma lista 
+2 - somar todos os itens da lista 
+3 - contar quantos numeros a lista tem
+4 - dividir a soma total dos numeros pela quantidade de numeros que a lista tem
+5 - escrever o resultado da media
+
+Um programa com as seguintes instruções ficaria:
 def soma_da_lista(sua_lista):
     soma_de_sua_lista = 0
     for number in sua_lista:
