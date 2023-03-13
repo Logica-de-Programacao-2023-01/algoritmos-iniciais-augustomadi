@@ -1,0 +1,21 @@
+1 - Se o número for menor ou igual a 1:
+Escreva que o número não é primo
+2 - Se o numero for divisivel por qualquer numero de 2 ao numero - 1:
+Escreva que o numero não é primo
+3 - Se o numero não for condizente com o 1 ou 2:
+Escreva que o numero é primo
+
+Se um codigo fosse escrito com o algoritmo a cima, ficaria:
+
+def numero_primo(number):
+    if number <= 1: #passo 1
+        return False
+    for i in range(2,number):#passo 2
+        if number % i == 0:#passo 2
+            return False
+    return True#passo 3
+Exemplo:
+print(numero_primo(7)) -> Retornara True
+print(numero_primo(8)) -> Retornara False
+print(numero_primo(9)) -> Retornara False
+print(numero_primo(3)) -> Retornara True
