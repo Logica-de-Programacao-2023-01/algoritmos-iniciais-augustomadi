@@ -1,0 +1,24 @@
+1 - Ira pedir o valor do capital
+2 - Ira pedir o valor da taxa dos juros
+3 - Ira pedir o periodo em anos do periodo
+4 - Ira dividir o valor dos juros por 100 para dar o valor decimal dos juros
+5 - ira multiplicar o capitao pela taxa em decimal + 1 para dar o valor dos juros
+6 - Pegar o resultado dessa multiplicação e elevar pelo tempo 
+7 - Escrever o resultado
+
+Um codigo com esse algoritmo iria ficar:
+capital = float(input("Digite o valor do capital: "))
+taxa = float(input("Digite a taxa de juros (em %): "))
+tempo = float(input("Digite o período (em anos): "))
+
+taxa = taxa / 100
+
+montante = capital * (1 + taxa) ** tempo
+
+print("O montante é:", montante)
+
+exemplo:
+Digite o valor do capital: 10000
+Digite a taxa de juros (em %): 10
+Digite o período (em anos): 1
+O montante é: 11000.0
