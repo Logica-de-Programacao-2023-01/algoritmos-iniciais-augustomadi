@@ -1,0 +1,18 @@
+1 - Pedir ao ususario uma base
+2 - Pedir ao usuario a altura do triangulo
+3 - multiplicar a base e a altura e dividir o resultado por 2
+4 - Escreva o resultado
+
+Um codigo seguindo o algoritmo acima iria ficar:
+
+base = input("Digite o tamanho da base do triangulo em cm: ")
+altura = input("Digite a altura do triangulo em cm: ")
+
+area = (int(base) * int(altura)) / 2
+
+print(f"A area do seu triangulo é {area} cm2")
+
+exemplo:
+Digite o tamanho da base do triangulo em cm: 3 # -> usuario digitou 3
+Digite a altura do triangulo em cm: 4 # -> usuario digitou 4
+A area do seu triangulo é 6.0 cm2 # -> resultado da conta
